@@ -13,6 +13,9 @@
 		006AF78523F29B0200441C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006AF78423F29B0200441C9D /* Assets.xcassets */; };
 		006AF78823F29B0200441C9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006AF78623F29B0200441C9D /* LaunchScreen.storyboard */; };
 		00F328E923F2A22F00E15CB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00F328E823F2A22F00E15CB8 /* GoogleService-Info.plist */; };
+		00F328F323F2AADE00E15CB8 /* SearchResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F328F223F2AADE00E15CB8 /* SearchResultTableViewController.swift */; };
+		00F328F723F2AB7100E15CB8 /* APIRequestFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F328F623F2AB7100E15CB8 /* APIRequestFetch.swift */; };
+		00F328F923F2ABAF00E15CB8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F328F823F2ABAF00E15CB8 /* CustomTableViewCell.swift */; };
 		9EB86C3876C4066B6AE3F365 /* Pods_WikiSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40473FF645422797C683CA4 /* Pods_WikiSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		006AF78723F29B0200441C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		006AF78923F29B0200441C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00F328E823F2A22F00E15CB8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00F328F223F2AADE00E15CB8 /* SearchResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewController.swift; sourceTree = "<group>"; };
+		00F328F623F2AB7100E15CB8 /* APIRequestFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestFetch.swift; sourceTree = "<group>"; };
+		00F328F823F2ABAF00E15CB8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		D3115D1498E9C33C9B8DC99C /* Pods-WikiSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiSearch.release.xcconfig"; path = "Target Support Files/Pods-WikiSearch/Pods-WikiSearch.release.xcconfig"; sourceTree = "<group>"; };
 		DBB4D3256303B303FB45A95C /* Pods-WikiSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiSearch.debug.xcconfig"; path = "Target Support Files/Pods-WikiSearch/Pods-WikiSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		F40473FF645422797C683CA4 /* Pods_WikiSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WikiSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +76,9 @@
 				006AF78423F29B0200441C9D /* Assets.xcassets */,
 				006AF78623F29B0200441C9D /* LaunchScreen.storyboard */,
 				006AF78923F29B0200441C9D /* Info.plist */,
+				00F328F223F2AADE00E15CB8 /* SearchResultTableViewController.swift */,
+				00F328F623F2AB7100E15CB8 /* APIRequestFetch.swift */,
+				00F328F823F2ABAF00E15CB8 /* CustomTableViewCell.swift */,
 			);
 			path = WikiSearch;
 			sourceTree = "<group>";
@@ -207,8 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F328F723F2AB7100E15CB8 /* APIRequestFetch.swift in Sources */,
+				00F328F923F2ABAF00E15CB8 /* CustomTableViewCell.swift in Sources */,
 				006AF78023F29AFF00441C9D /* ViewController.swift in Sources */,
 				006AF77E23F29AFF00441C9D /* AppDelegate.swift in Sources */,
+				00F328F323F2AADE00E15CB8 /* SearchResultTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
